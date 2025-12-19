@@ -21,5 +21,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy to S3
-        run: |
-          aws s3 sync . s3://YOUR_S3_BUCKET_NAME --delete
+        run:  aws s3 sync . s3://varma-git-actions --delete
